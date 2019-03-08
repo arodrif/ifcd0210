@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Accesible</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <script src="js/prefix.js"></script>
+   <!-- <script src="js/zoom.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/estilo1.css">
+    <style type="text/css">
+    a:hover {
+        background-color: #ffffcc !important;
+        color: #BF1722;
+        border-top: 1px solid #bbb;
+        border-bottom: 1px solid #bbb;
+        outline: none;
+        border-radius: 4px;
+    }
+    </style>
+
+    <script type="text/javascript">
+    	
+    	$('#zoom-in').click(function() {
+   		updtZoom(0.1);
+	});
+
+	$('#zoom-out').click(function() {
+   		updtZoom(-0.1);
+	});
+
+	zoomLvl = 1;
+
+	var updtZoom = function(zoom) {
+   		zoomLvl += zoom;
+   $('body').css({ zoom: zoomLvl, '-moz-transform': 'scale(' + zoomLvl + ')' });
+	}
+
+    </script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="accesible.jpg" width="150" alt="">
+                <a href="#">Accesible</a>
+            </div>
+            <nav>
+                <a href="index1.html">Inicio</a>
+                <a href="Accesible.html">Accesible</a>
+                <a href="usable.html">Usable</a>
+                <a href="formulario.html">Contacto</a>
+            </nav>
+            <div class="social">
+                <div class="iconos">
+                    <center><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esthersola.com%2Fintegrar-redes-sociales-web%2F&t=Como%20integrar%20las%20redes%20sociales%20en%20nuestra%20web"><img class="t" src="iconos/icon-facebook.png" /></a>
+                    </center>
+                    <center><a href="https://twitter.com/"><img src="iconos/icon-twitter.png" width="25" height="25" /></a>
+                    </center>
+                    <center><a href="https://plus.google.com/discover"><img src="iconos/icon-googleplus.png" width="25" height="25"></a>
+                    </center>
+                </div>
+            </div>
+        </header>
+        <section class="main">
+            <section>
+                <article>
+                    <h2 class="titulo">
+                        <img class="t" src="silla.png" alt="definición de discapacitado" />
+                        <a href="https://es.wikipedia.org/wiki/Discapacidad">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;"> La Discapacidad </font>
+                            </font>
+                        </a></h2>
+                 
+                    <p class="parrafo"><strong>La discapacidad:</strong> es aquella condición bajo la cual ciertas personas presentan alguna deficiencia física, mental, intelectual o sensorial que a largo plazo afectan la forma de interactuar y participar plenamente en la sociedad.1​ En la mayoría de países, las personas con discapacidad pueden solicitar el reconocimiento de su condición y, a partir de cierto grado, un certificado de discapacidad, que les permite acceder a una serie de ventajas. El término minusvalía se considera peyorativo fuera del ámbito legal.</p> 
+                    <button type="button" id="zoom-in">+</button>
+                    <button type="button" id="zoom-out">-</button>
+
+                </article>
+                <article>
+                    <section class="uno">
+                        <h2 class="titulo">
+                            <img src="ojo.jpg" alt="discapacidad visual" width="20" height="20">
+                            <a href="https://www.discapnet.es/areas-tematicas/salud/discapacidades/deficiencias-visuales/deficiencias-visuales">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;"> Discapacidad Visual</font>
+                                </font>
+                            </a></h2>
+                        <p class="parrafo">
+                            <strong>La discapacidad visual:</strong> se define con base en la agudeza visual, así como el campo visual. Se habla de discapacidad visual del ojo cuando existe una disminución significativa de la agudeza visual del ojo aun con el uso de lentes, o bien, una disminución significativa del campo visual del ojo. </p><br />
+                        <a href="https://es.wikipedia.org/wiki/Discapacidad_visual" class="leer-mas">Ampliar</a><br /><br />
+                    </section>
+                    <section class="uno dos">
+                        <h2 class="titulo">
+                            <img src="oido.jpg" alt="discapacidad auditiva" width="20" height="20">
+                            <a href="https://www.discapnet.es/areas-tematicas/salud/discapacidades/deficiencias-visuales/deficiencias-visuales">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;"> Discapacidad Auditiva</font>
+                                </font>
+                            </a></h2>
+                        <p class="parrafo">
+                            <strong>La Discapacidad auditiva:</strong> es un déficit total o parcial en la percepción que se evalúa por el grado de pérdida de la audición en cada oído. Las personas con esta discapacidad se distinguen entre:
+                            <strong>Sordas:</strong> poseen una deficiencia total o profunda.
+                            <strong>Hipoacúsicas:</strong> poseen una deficiencia parcial, es decir, que cuentan con un resto auditivo el cual puede mejorar con el uso de audífonos (aparato electrónico que amplifica los sonidos).
+                        </p>
+                        <a href="https://www.incluyeme.com/todo-lo-que-necesitas-saber-sobre-discapacidad-auditiva/">Ampliar</a><br><br>
+                    </section>
+                </article>
+            </section>
+            <article>
+                <h2 class="titulo">Otras discapacidades.</h2>
+                <p>hjgfhjgdshgsljhsdljghgljhlgdjkhsgkjhgkljfh</p>
+            </article>
+        </section>
+        <aside>
+            <div class="widget">
+                <h3> Imagen JPG</h3><br />
+                <img src="img/vivir.jpg" width="240" height="120"><br />
+                <a href="https://www.cesarpiqueras.com/vivir-cada-momento-como-si-fuera-el-ultimo/" class="leer-mas">Ampliar</a><br />
+            </div>
+            <div class="widget">
+               <div>
+  <img src="https://seeklogo.com/images/M/Macromedia-logo-9F0381E71C-seeklogo.com.gif" alt="" />
+Macromedia fue una empresa de software de gráficos y desarrollo web con centrales en San Francisco, California. Macromedia fue formada en 1992 por la fusión de Authorware, Inc. (creadores de Authorware) y MacroMind-Paracomp (creadores de Macromind Director). Sus centrales están en San Francisco, California.
+</div>
+
+<button type="button" id="zoom-in">+</button>
+<button type="button" id="zoom-out">-</button> 
+            </div>
+        </aside>
+        <footer>
+            <section class="links">
+                <a href="#">Inicio</a>
+                <a href="texto.html">Texto</a>
+                <a href="#">Usable</a>
+                <a href="formulario.html">Contacto</a>
+            </section>
+            <div class="social">
+                <div class="iconos">
+                    <center><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esthersola.com%2Fintegrar-redes-sociales-web%2F&t=Como%20integrar%20las%20redes%20sociales%20en%20nuestra%20web"><img src="iconos/icon-facebook.png" width="25" height="25"></a>
+                    </center>
+                    <center><a href="https://twitter.com/"><img src="iconos/icon-twitter.png" width="25" height="25" /></a>
+                    </center>
+                    <center><a href="https://plus.google.com/discover"><img src="iconos/icon-googleplus.png" width="25" height="25"></a>
+                    </center>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
